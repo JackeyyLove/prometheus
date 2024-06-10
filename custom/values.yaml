@@ -1,0 +1,8 @@
+# values.yaml
+prometheus:
+  prometheusSpec:
+    serviceMonitorSelector: {}
+    serviceMonitorNamespaceSelector:
+      matchLabels:
+        kubernetes.io/metadata.name: default
+
